@@ -1,0 +1,189 @@
+/*
+	Cyrille MdC 2010
+	Furnissure css
+*/
+
+/*-- tags --*/
+
+body {
+ background-color: #f1f1ff;
+}
+
+p {
+ padding: 5px;
+}
+
+h3 {
+ font-size: 1.2em;
+ margin: -5px -5px 0 -5px;
+ padding: 10px 0 10px 10px;
+ display: block;
+ background-color: white;
+ font-family: Arial;
+ color: black;
+}
+
+#main ol {
+ padding-left: 50px;
+}
+
+#main li {
+ padding-top: 5px;
+ padding-left: 5px;
+ list-style-type: decimal;
+}
+
+/*-- Main sections --*/
+
+#cont {
+ width: 700px;
+ margin: auto;
+ padding: 5px;
+ background-color: white;
+ border: 1px solid #aac;
+ overflow: auto;
+ font-size: 1.2em;
+}
+
+#nav {
+ height: 25px;
+ background: #aac url(imgs/navslice.png) repeat-x;
+ margin: 0 -5px;
+ border-top: solid 1px #aaa;
+ border-bottom: solid 1px black;
+}
+
+#nav li {
+ padding: 3px 0 1px 5px;
+ height: 21px;
+ float: left;
+ background: url(imgs/arrowbar.png) no-repeat 90px 0px;
+ cursor: pointer;
+ width: 113px;
+}
+
+#nav li:hover {
+ background: url(imgs/arrowbar.png) no-repeat 90px -25px;
+}
+
+#main {
+ margin-top: 10px;
+}
+
+#footer {
+ padding: 30px 0 5px 5px;
+ color: #444;
+ font-size: 0.6em;
+ clear: both;
+}
+
+/*--- ids ---*/
+
+#p1 {
+ background: url(imgs/furnex.png) no-repeat 200px 10px;
+}
+
+#p2 {
+ background: url(imgs/roomp2.png) no-repeat 230px 40px;
+}
+
+#p3 {
+ background: url(imgs/roomp3.png) no-repeat 420px 40px;
+
+}
+
+#p8_fin {
+ width: 500px;
+ height: 350px;
+}
+
+#furnlist {
+ float: left;
+ width: 280px;
+ background-color: #efe;
+ padding: 10px;
+ margin: 10px 0 10px 0px;
+}
+
+/*--- classes --*/
+.wndw {
+ width: 100%;
+ min-height: 400px;
+ background-color: white;
+ margin-top:3px;
+ overflow: auto;
+}
+
+.inpt {
+ float: left;
+ margin: 10px;
+ background-color: #eef;
+ padding: 10px;
+ width: 200px;
+}
+
+.lf, .rf {
+ float: right;
+ margin: 25px 20px 0 20px;
+}
+
+.lf {
+ float: left;
+ clear: left;
+}
+
+.svgbox {
+ margin: 10px;
+ float: left;
+}
+
+.warn {
+ background-color: #daa;
+ margin: 5px;
+ padding: 2px 4px;
+ -moz-border-radius: 2px;
+ -webkit-border-radius:  2px;
+}
+
+.nobg {
+ background-image:inherit !important;
+}
+
+/*-- item classes --*/
+.flitem {
+ margin-top: 3px;
+ background-color: #dfd;
+ overflow: auto;
+ font-size: 80%;
+}
+
+.fldstry {
+ text-align: center;
+ float: right;
+ width: 20px;
+}
+
+.fldstry:hover {
+ background-color: #fdd;
+ cursor: pointer;
+}
+
+.fltext {
+ float: left;
+}
+
+/*-- button mimic --*/
+.bbut, .nbut {
+ background-color: #e8e8e8;
+ border: solid 1px #777;
+ padding: 5px 5px;
+ min-width: 80px;
+ max-width: 140px;
+ text-align: center;
+ font-weight: bold;
+ cursor: pointer;
+ -moz-border-radius: 2px;
+ -webkit-border-radius:  2px;
+
+}
+

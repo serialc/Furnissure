@@ -1,0 +1,11 @@
+/*
+	Cyrille MdC 2010
+	Furnissure css
+	For printing
+*/
+
+/*-- tags --*/
+
+p, h3, #nav, #footer, div.bbut {
+ display: none !important;
+}
